@@ -25,3 +25,7 @@ print(f"There are {len(ages1)} people aged between 16 and 65.")
 # 6
 ages1.sort()
 print(f"The sorted list of {len(ages1)} people aged between 16 and 65.\n {ages1}")
+
+# 7
+
+print(f"{(ages_length - len(ages1)) * 100 /ages_length }% of people are aged between 16 and 65.\n {ages1}")
